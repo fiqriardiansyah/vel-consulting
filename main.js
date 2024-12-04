@@ -1,7 +1,10 @@
-import './style.css'
+import './style.css';
+import MicroModal from 'micromodal';
 
+MicroModal.init();
 
 document.addEventListener("DOMContentLoaded", () => {
+    // navigation
     const mobileNav = document.querySelector("#mobile-nav");
     const buttonMenu = document.querySelector("#button-menu");
 
